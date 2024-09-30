@@ -1,0 +1,220 @@
+.landpage {
+  .background {
+    /* background-color: red;
+    height: 2000px; */
+    /* background: linear-gradient(to right, rgb(199, 98, 160), rgb(238, 198, 236)); */
+    background-color: white;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+  }
+  .header1 {
+    /* background-color: rgb(17, 17, 175); */
+    /* height: 2000px; */
+    /* background-color: green; */
+    /* width: 100%; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+  }
+  .header1 #logo {
+    /* background-color: blue; */
+    color: rgb(6, 6, 48);
+    padding: 15px 20px;
+    font-size: 22px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  #searchbar {
+    /* background-color: red; */
+    border: 1px solid rgb(216, 213, 213);
+    text-align: left;
+    width: 200px;
+    height: 25px;
+    margin-top: 17px;
+    display: block;
+    padding: 3px;
+    /* padding-left: 1px; */
+    outline-style: none;
+    border-radius: 2px;
+    color: rgb(53, 51, 51);
+  }
+
+  .form #searchbar {
+    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-weight: bold; */
+  }
+  .nav-bar {
+    /* background-color: cyan; */
+    /* display: none; */
+    margin-right: 0;
+    flex-direction: column;
+  }
+  .nav-bar ul {
+    font-size: 16px;
+    display: flex;
+    padding: 20px 15px;
+    color: rgb(20, 20, 75);
+    gap: 50px;
+  }
+  .header2 {
+    background-color: rgb(195, 252, 253);
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+  }
+  .header2 p {
+    font-size: 17px;
+    color: rgb(4, 4, 39);
+  }
+  .legalTermsbox {
+    background-color: rgb(31, 240, 125);
+    display: flex;
+    height: 250px;
+    padding: 30px 0px;
+    padding-left: 50px;
+    justify-content: space-between;
+  }
+  .legalTermsbox .leftbox {
+    /* background-color: red; */
+    height: fit-content;
+  }
+  #bigText {
+    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: rgb(11, 11, 49);
+  }
+  .legalTermsbox .leftbox > p {
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    color: rgb(12, 12, 32);
+  }
+  .legalTermsbox .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: fit-content;
+    padding-top: 22px;
+  }
+  .legalTermsbox .form p {
+    cursor: pointer;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    border: none;
+    padding: 5px 20px;
+    color: rgb(116, 108, 108);
+  }
+  .iconbox {
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    /* background-color: red; */
+    /* border: 2px solid green; */
+    /* background: linear-gradient(to bottom, rgb(31, 240, 125), white); */
+    border-radius: 10px;
+
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  .iconbox img {
+    margin-top: -100px;
+  }
+  .boxess {
+    background-color: red;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .boxes {
+    /* color: brown; */
+    background-color: rgb(30, 216, 108);
+    margin-top: 20px;
+    /* width: 100vw; */
+    height: 400px;
+    display: flex;
+    column-gap: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    /* margin: 0; */
+  }
+
+  .box-1 {
+    margin-top: 20px;
+    height: 300px;
+    width: 800px;
+    transition: .5s;
+    border-radius: 5px;
+    /* margin-left: 50px; */
+    /* border-radius: 2px; */
+    padding: 20px 10px;
+    /* background-color: rgb(20, 238, 93); */
+    background-color: hsl(108, 75%, 34%);
+    /* margin-right: 20px; */
+    /* gap: 5px; */
+    position: absolute;
+    /* left: 50%; */
+    /* top: 20px; */
+    transform: translate(calc(30% + var(--allowance)), var(--allowance));
+  }
+  .box-1:first-child {
+    background-color: hsl(234, 79%, 80%);
+  }
+  .box-1:nth-child(2) {
+    background-color: hsl(22, 78%, 80%);
+    /* background-color: rgb(211, 213, 231); */
+  }
+  .box-1 #welcome {
+    /* background-color: red; */
+    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(9, 9, 77);
+    /* padding-top: 10px 0px; */
+  }
+  .box-1 #policy {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    color: rgb(9, 9, 77);
+  }
+  .box-1 #news {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    color: rgb(9, 9, 77);
+  }
+  .buttons {
+    position: absolute;
+    inset: 0;
+
+    & button {
+      position: absolute;
+      top: 50%;
+      padding: 10px 30px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      z-index: 15;
+    }
+    
+    & button:first-child {
+      left: 0;
+    }
+    & button:last-child {
+      transform: translateX(-100%);
+      left: 100%;
+    }
+    & button:hover{
+      filter: brightness(0.9);
+    }
+  }
+}

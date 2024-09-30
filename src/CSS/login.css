@@ -1,0 +1,107 @@
+.login {
+  background-size: cover;
+  /* background-image: url(../IMAGES/360_F_440137850_sBJOKpItVGgxB2XgCY4pxJECaU3QTEXC.jpg); */
+  /* background-color: red; */
+
+  .background {
+    /* background-color: #c4e8f8;; */
+    /* background: linear-gradient(90deg, #c4e8f8 0, #c4e8f8 50%,  transparent 100%); */
+    width: 800px;
+    height: 70vh;
+    /* border: solid 1px; */
+    margin: 60px auto;
+  }
+  .title {
+    /* background-color: red; */
+    width: 800px;
+    height: 80px;
+    /* justify-content: center; */
+    text-align: center;
+    /* padding: 0 40px; */
+    padding-top: 20px;
+    /* margin-left: 250px; */
+    color: rgb(61, 60, 60);
+  }
+
+  .title p {
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+    /* background-color: #012d5a; */
+    /* margin-right: 500px; */
+    /* color: white; */
+  }
+  input {
+    /* background-color: blue;  */
+    width: 500px;
+    height: 20px;
+    border-color: none;
+    /* margin-left:100px; */
+    /* outline: navy; */
+    padding: 20px 10px;
+    /* justify-content: space-between; */
+  }
+  form > p {
+    margin-top: 10px;
+    width: 70px;
+    /* margin-left:5px; */
+    font-size: 13px;
+    font-weight: bold;
+    /* background-color: green; */
+    color: rgb(70, 63, 63);
+  }
+  form {
+    /* background-color: white (201, 36, 36); */
+    height: 400px;
+    /* background-color: #012d5a; */
+    width: 600px;
+    /* margin-top: 30px; */
+    margin-left: 80px;
+    padding: 30px 45px;
+    /* gap: 20px; */
+  }
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+  /* input[type=checkbox] + p{
+    background-color: red;
+    font-size: 16px;
+    font-weight: 500; */
+  /* } */
+  /* .checkbox{
+    margin-top: 30px;
+    gap: 10px;
+    align-items: center;
+    /* gap: 10; */
+  /* display: flex; */
+
+  /* .terms{
+    margin-top: 20px;
+    margin-left: 100px;
+} */
+  .terms p {
+    color: rgb(61, 60, 60);
+  }
+
+  button {
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+    padding: 0 15px;
+    margin-top: 80px;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    /* background-color: rgb(32, 116, 81); */
+    background-color: rgb(22, 143, 137);
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* #test{
+    color: rgb(61, 60, 60); */
+
+  /*  */
+}

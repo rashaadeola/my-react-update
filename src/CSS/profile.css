@@ -1,0 +1,121 @@
+.profile-page {
+  .container {
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(
+      to right,
+      rgb(252, 252, 252),
+      rgb(61, 106, 233)
+    );
+  }
+  .logobox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-left: 3px;
+    /* background-color: brown; */
+  }
+  .logoText {
+    font-size: 27px;
+    padding: 11px 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(17, 7, 158);
+    font-weight: 800;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin: 10px;
+    font-size: 17px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(233, 225, 225);
+    font-weight: 300;
+  }
+  .boxes {
+    /* background-color: rgb(38, 0, 255); */
+    margin-top: 30px;
+    height: 40px;
+    display: flex;
+    column-gap: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(245, 230, 230);
+    margin-left: 100px;
+  }
+  .box-1 {
+    height: 110px;
+    width: 230px;
+    margin-left: 10px;
+    border-radius: 3px;
+    padding: 40px;
+    background-color: rgb(76, 0, 255);
+  }
+
+  .profile {
+    /* background-color: red; */
+    margin-top: 9%;
+    height: 250px;
+    width: 100%;
+    /* width: 350px; */
+    display: flex;
+    /* margin-left:200px; */
+  }
+
+  .input-1 {
+    /* background-color: rgb(245, 240, 240); */
+    width: 280px;
+    margin-left: 200px;
+
+    /* border-radius: 80px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    /* width: fit-content; */
+    /* padding: 15px 20px; */
+  }
+  .input-1 img {
+    height: 180px;
+    width: 150px;
+    border-radius: 50%;
+    /* padding: 30px; */
+    justify-content: center;
+    margin-top: 10px;
+    /* background-color: green; */
+  }
+  .input-1 p {
+    font-size: 16px;
+    /* background-color: red; */
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    color: rgb(107, 100, 100);
+  }
+  .input-1 #big-p {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(71, 67, 67);
+  }
+  .input-2 {
+    background-color: rgb(245, 240, 240);
+    width: 700px;
+    height: 250px;
+    margin-left: 20px;
+    padding: 10px 15px;
+  }
+  .input-2 {
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+  .input-2 p {
+    padding: 10px;
+    border-bottom: 1px solid rgb(228, 213, 213);
+    color: rgb(49, 46, 46);
+  }
+}
